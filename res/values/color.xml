@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="defatlut_background">#4A255F</color>
+  
+      
+        <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+     <color name="red">#F90000</color>
+    
+    
+</resources>

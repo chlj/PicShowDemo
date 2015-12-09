@@ -1,0 +1,55 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pic1Activity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/lins"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="@drawable/buy_back"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/add_cart_layout"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cart_add_selector"
+                android:gravity="center"
+                android:text="加入购物车"
+                android:textColor="@color/textview" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cart_add_selector"
+                android:gravity="center"
+                android:text="宽指定，高不确定。图片按比例显示"
+                android:textColor="@color/textview" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cart_add_selector"
+                android:gravity="center"
+                android:text="图片,宽高定死 ，等比例显示"
+                android:textColor="@color/textview" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
